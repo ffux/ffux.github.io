@@ -31,11 +31,27 @@ a:hover {
  * Base structure
  */
 
+@font-face {
+  font-family: bebasNeue;
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: robotoRegular;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
 html,
 body {
   height: 100%;
   background-color: rgb(26, 26, 26);
   font-size: 1rem;
+  background: url(https://66.media.tumblr.com/f0525ceb1fe072ff98b19a7a248e864d/tumblr_p55mmdHIBd1w0qgxyo1_400.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -44,25 +60,49 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  padding: 0px;
+  margin: 0px;
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 25vw;
+  /* letter-spacing: -0.05em; */
+  line-height: 80%;
+  padding: 0px;
+  margin: 0px;
+  text-shadow: 4px 4px #000000;
+  font-family: bebasNeue;
 }
 
-.container {
-  max-width: 42em;
+.header-text {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
 }
 
-/*
- * Cover
- */
-.cover {
-  padding: 0 1.5rem;
+.container-fluid {
+  padding: 0;
 }
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
+
+.first-screen {
+  height: 100vh;
+  background-color: #333;
+  position: relative;
+}
+
+.second-screen {
+  height: 100vh;
+  background-color: #333;
+  position: relative;
+}
+
+.second-screen-text {
+  position: absolute;
+  text-shadow: 2px 2px #000000;
+  font-family: robotoRegular;
+  font-size: 2em;
+  margin: 100px;
+  background: rgba(0, 0, 0, 0.616);
 }
 
 /*
@@ -70,4 +110,12 @@ h1 {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+
+canvas{
+	width: 100%;
+	height: 100%;
+  background: #000;
+  position: absolute;
 }
