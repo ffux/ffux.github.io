@@ -109,6 +109,11 @@ h1 {
   background: rgba(0, 0, 0, 0.616);
 }
 
+.third-screen {
+  height: 100vh;
+  position: relative;
+}
+
 /*
  * Footer
  */
