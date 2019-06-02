@@ -78,6 +78,12 @@ h1 {
   font-family: bebasNeue;
 }
 
+h2 {
+  font-size: 2em;
+  text-shadow: 4px 4px #000000;
+  font-family: bebasNeue;
+}
+
 .bottomRightNavigation {
   position: absolute;
   bottom: 0;
@@ -108,7 +114,7 @@ h1 {
   position: relative;
 }
 
-.screen-text {
+.second-screen-text {
   position: absolute;
   text-shadow: 2px 2px #000000;
   font-family: robotoRegular;
@@ -121,6 +127,16 @@ h1 {
 .third-screen {
   height: 100vh;
   position: relative;
+}
+
+.third-screen-text {
+  position: absolute;
+  text-shadow: 2px 2px #000000;
+  font-family: robotoRegular;
+  font-size: 1em;
+  margin: 100px;
+  padding:20px;
+  background: rgba(0, 0, 0, 0.616);
 }
 
 /*
