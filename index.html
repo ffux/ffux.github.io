@@ -37,6 +37,12 @@
 
 <body class="text-left">
   <div class="container-fluid">
+    <!-- d88888b d888888b d8888b. .d8888. d888888b   d8888b.  .d8b.  d8b   db d88888b db     
+         88'       `88'   88  `8D 88'  YP `~~88~~'   88  `8D d8' `8b 888o  88 88'     88     
+         88ooo      88    88oobY' `8bo.      88      88oodD' 88ooo88 88V8o 88 88ooooo 88     
+         88~~~      88    88`8b     `Y8b.    88      88~~~   88~~~88 88 V8o88 88~~~~~ 88     
+         88        .88.   88 `88. db   8D    88      88      88   88 88  V888 88.     88booo.
+         YP      Y888888P 88   YD `8888Y'    YP      88      YP   YP VP   V8P Y88888P Y88888P -->
     <div class="first-screen">
       <main role="main">
         <div class="header-text">
@@ -46,26 +52,61 @@
         <a data-scroll class="bottomRightNavigation" href="#second-screen"><img src="images/downarrow.svg"
             width="50px" /></a>
     </div>
+    <!-- .d8888. d88888b  .o88b.  .d88b.  d8b   db d8888b.   d8888b.  .d8b.  d8b   db d88888b db     
+         88'  YP 88'     d8P  Y8 .8P  Y8. 888o  88 88  `8D   88  `8D d8' `8b 888o  88 88'     88     
+         `8bo.   88ooooo 8P      88    88 88V8o 88 88   88   88oodD' 88ooo88 88V8o 88 88ooooo 88     
+           `Y8b. 88~~~~~ 8b      88    88 88 V8o88 88   88   88~~~   88~~~88 88 V8o88 88~~~~~ 88     
+         db   8D 88.     Y8b  d8 `8b  d8' 88  V888 88  .8D   88      88   88 88  V888 88.     88booo.
+         `8888Y' Y88888P  `Y88P'  `Y88P'  VP   V8P Y8888D'   88      YP   YP VP   V8P Y88888P Y88888P -->
     <div class="second-screen" id="second-screen">
       <canvas></canvas>
-      <div class="second-screen-text">
+      <div class="second-screen-container">
         <h2>I am an easy going, self-aware and focused individual looking to sink my teeth
           into the IT industry.</h2>
-        <p>
-          In my spare time over the past 10 years I have completed self-directed learning
-          in creative digital media and have since followed this to a Certificate in Audio Production, and a Diploma in
-          Software Engineering and Design. I believe this is evident in my creative outlook and agile
-          ideologies.</p>
-        <p>I always have a personal project on the go where I am challenged to learn new
-          practical skills. Currently I find myself sinking time into creating interesting
-          custom keyboard designs and firmware using C and compiling with MSYS2.</p>
+        <div class="second-screen-paragraph">
+          <div class="row">
+            <div class="col-8">
+              <p>
+                In my spare time over the past 10 years I have completed self-directed learning
+                in creative digital media and have since followed this to a Certificate in Audio Production, and a
+                Diploma in
+                Software Engineering and Design. I believe this is evident in my creative outlook and agile
+                ideologies.</p>
+              <p>I always have a personal project on the go where I am challenged to learn new
+                practical skills. Currently I find myself sinking time into creating interesting
+                custom keyboard designs and firmware using C and compiling with MSYS2.</p>
+            </div>
+
+            <div class="col"><img src="images/pfp.png" class="profile-photo" /><br />
+              <div class="contact-section">
+                <script>(function whatever() { var s = '@', n = 'tim', k = 'newman.fyi', e = n + s + k, l = '<a href=mailto:{{spam@cia.gov}}>{{spam@fbi.gov}}</a>'.replace(/{{.+?(}})/g, e); document.write(l) })()</script>
+                <br /><br />
+                <div class="row">
+                  <div class="col"></div>
+                  <div class="col"><a href="https://github.com/ffux" target="_blank"><img class="socials"
+                        src="images/github.svg" /></a></div>
+                  <div class="col"><a target="_blank"><img class="socials"
+                        src="images/linkedin_circle.png" /></a></div><div class="col"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
       <a data-scroll class="bottomRightNavigation" href="#third-screen"><img src="images/downarrow.svg"
           width="50px" /></a>
     </div>
+    <!-- d888888b db   db d888888b d8888b. d8888b.   d8888b.  .d8b.  d8b   db d88888b db     
+         `~~88~~' 88   88   `88'   88  `8D 88  `8D   88  `8D d8' `8b 888o  88 88'     88     
+            88    88ooo88    88    88oobY' 88   88   88oodD' 88ooo88 88V8o 88 88ooooo 88     
+            88    88~~~88    88    88`8b   88   88   88~~~   88~~~88 88 V8o88 88~~~~~ 88     
+            88    88   88   .88.   88 `88. 88  .8D   88      88   88 88  V888 88.     88booo.
+            YP    YP   YP Y888888P 88   YD Y8888D'   88      YP   YP VP   V8P Y88888P Y88888P -->
     <div class="third-screen" id="third-screen">
-      <div class="third-screen-text">
-        <h2>Work history</h2>
+      <div class="third-screen-container">
+        <h2>Experience</h2>
         <p>2018-Present<br />
           <i>Service Desk Analyst, Datacom</i><br />
           Since joining Datacom I have worked directly with ACC and MBIE and assisted
@@ -133,11 +174,11 @@
       </div>
     </div>
     </main>
-    <!-- <footer class="mastfoot mt-auto">
+    <footer class="mastfoot mt-auto">
       <div class="inner text-center">
-        <p>Made by yours truly.</p>
+        <p><a href="https://github.com/ffux/ffux.github.io" target="_blank">Made by yours truly.</a></p>
       </div>
-    </footer> -->
+    </footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -151,7 +192,8 @@
   <script>
     ScrollReveal().reveal('.headline')
     ScrollReveal().reveal('.tagline', { delay: 1000 })
-    ScrollReveal().reveal('.screen-text', { delay: 1000 })
+    ScrollReveal().reveal('.second-screen-container', { delay: 800 })
+    ScrollReveal().reveal('.third-screen-container', { delay: 800 })
   </script>
   <script type="text/javascript" src="scripts/flowing_particles.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>

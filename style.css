@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 4vw;
   text-shadow: 4px 4px #000000;
   font-family: bebasNeue;
 }
@@ -118,14 +118,39 @@ h2 {
   position: relative;
 }
 
-.second-screen-text {
+.second-screen-container {
   position: absolute;
   text-shadow: 2px 2px #000000;
   font-family: robotoRegular;
-  font-size: 2.3vw;
   margin: 100px;
-  padding:20px;
+  padding: 20px;
   background: rgba(0, 0, 0, 0.774);
+}
+
+.second-screen-paragraph {
+  text-shadow: 2px 2px #000000;
+  font-family: robotoRegular;
+  font-size: 2vh;
+  position: relative;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.socials {
+  max-width: 35px;
+  filter: invert(100%);
+}
+
+.profile-photo {
+  border-radius: 50%;
+  border: 3px solid #ddd;
+  width: 80%;
+  max-width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .third-screen {
@@ -133,7 +158,7 @@ h2 {
   position: relative;
 }
 
-.third-screen-text {
+.third-screen-container {
   position: absolute;
   text-shadow: 2px 2px #000000;
   font-family: robotoRegular;
@@ -148,6 +173,8 @@ h2 {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+  position: relative;
+  bottom: -600px;
 }
 
 
