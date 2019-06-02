@@ -45,7 +45,7 @@ body {
   height: 100%;
   background-color: rgb(26, 26, 26);
   font-size: 1rem;
-  background: url(https://66.media.tumblr.com/f0525ceb1fe072ff98b19a7a248e864d/tumblr_p55mmdHIBd1w0qgxyo1_400.gif) no-repeat center center fixed;
+  background: url(http://66.media.tumblr.com/c4b561113fd8fb5e382292092b580b5c/tumblr_oc5dbvOFO81uzwgsuo1_400.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -78,6 +78,15 @@ h1 {
   font-family: bebasNeue;
 }
 
+.bottomRightNavigation {
+  position: absolute;
+  bottom: 0;
+  right: 0; 
+  filter: invert(100%);
+  opacity: 0.1;
+  padding: 5px;
+}
+
 .header-text {
   position: absolute;
   bottom: 0;
@@ -96,16 +105,16 @@ h1 {
 
 .second-screen {
   height: 100vh;
-  background-color: #333;
   position: relative;
 }
 
-.second-screen-text {
+.screen-text {
   position: absolute;
   text-shadow: 2px 2px #000000;
   font-family: robotoRegular;
   font-size: 2em;
   margin: 100px;
+  padding:20px;
   background: rgba(0, 0, 0, 0.616);
 }
 
