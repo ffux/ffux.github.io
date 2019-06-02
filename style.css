@@ -70,7 +70,7 @@ h1 {
   line-height: 80%;
   padding: 0px;
   margin: 0px;
-  text-shadow: 4px 4px #000000;
+  text-shadow: 7px 7px #000000;
   font-family: bebasNeue;
 }
 
@@ -86,7 +86,7 @@ h1 {
 
 .first-screen {
   height: 100vh;
-  background-color: #333;
+  background-color: rgb(19, 19, 19);
   position: relative;
 }
 
