@@ -144,6 +144,10 @@ h2 {
   filter: invert(100%);
 }
 
+.source {
+  font-size: 1vw;
+}
+
 .profile-photo {
   border-radius: 50%;
   border: 3px solid #ddd;
